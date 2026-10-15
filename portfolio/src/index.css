@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{@apply bg-bg text-ink font-sans antialiased overflow-x-hidden}
+:focus-visible{outline:2px solid #0f766e;outline-offset:3px}
+@keyframes fl{50%{transform:translateY(-8px)}}
+.float{animation:fl 6s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
